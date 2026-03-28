@@ -245,8 +245,14 @@ class TelegramNotifier:
 
         return self.send_message(report)
 
-    def send_startup_message(self) -> bool:
+        def send_startup_message(self) -> bool:
         """GitHub Actions run start hone par notification"""
         message = (
+            f"🚀 <b>Weather Monitor Started</b>\n"
+            f"<code>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</code>\n"
+            f"📍 VILK (Lucknow) | KLGA (New York)\n\n"
+            f"<i>Polymarket Weather Trading Bot active hai!</i>"
+        )
+        return self.send_message(message)
             f"🚀 <b>Weather Monitor Started</b>\n"
             f"⏰ {datetime.now().strftime('%
