@@ -1,0 +1,44 @@
+{
+  "stations": {
+    "VILK": {
+      "name": "Lucknow - Chaudhary Charan Singh Intl Airport",
+      "city": "Lucknow",
+      "country": "India",
+      "unit_group": "metric",
+      "temp_unit": "°C",
+      "wind_unit": "km/h",
+      "wunderground_url": "https://www.wunderground.com/history/daily/in/lucknow/VILK",
+      "polymarket_resolution_date": "2026-03-28",
+      "timezone": "Asia/Kolkata",
+      "lat": 26.7606,
+      "lon": 80.8893
+    },
+    "KLGA": {
+      "name": "New York - LaGuardia Airport",
+      "city": "New York",
+      "country": "USA",
+      "unit_group": "us",
+      "temp_unit": "°F",
+      "wind_unit": "mph",
+      "wunderground_url": "https://www.wunderground.com/history/daily/us/ny/new-york-city/KLGA",
+      "polymarket_resolution_date": "2026-03-28",
+      "timezone": "America/New_York",
+      "lat": 40.7769,
+      "lon": -73.8740
+    }
+  },
+  "trade_boundaries": {
+    "VILK": {
+      "threshold_low": 38.0,
+      "threshold_high": 42.0,
+      "alert_zone": 2.0,
+      "currency": "INR"
+    },
+    "KLGA": {
+      "threshold_low": 65.0,
+      "threshold_high": 75.0,
+      "alert_zone": 3.0,
+      "currency": "USD"
+    }
+  }
+}
