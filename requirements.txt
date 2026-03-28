@@ -1,1 +1,14 @@
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.0
 
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Scheduling (local runs ke liye)
+schedule>=1.2.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
